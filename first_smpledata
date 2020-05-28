@@ -1,0 +1,127 @@
+{
+    "base":{
+        "baseUrl":"https://rahulshettyacademy.com",
+        "StatusCode":"200",
+        "   ":[
+            {
+            "HKey":"oauth",
+            "HValue":"kfdsakyuia173287"}
+        ]
+    },
+        "userdata":[{ 
+            "APIMethods":"post",
+            "ContractType":"",
+            "APIReference":"maps/api/place/add/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"key",
+              "Pvalue":"qaclick123"
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ], 
+            "Requestbody":
+            {"location": {"lat": -38.383494,"lng": 33.427362},
+            "accuracy": 50,"name": "Frontline house","phone_number": "(+91) 983 893 3937",
+            "address": "29, side layout, cohen 09","types": ["shoe park","shop" ],
+            "website": "http://google.com", "language": "French-IN"}
+            }
+        
+        },
+        { 
+            "APIMethods":"Get",
+            "ContractType":"",
+            "APIReference":"maps/api/place/get/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"place_id",
+              "Pvalue":"1fcf6f47044d95a452b051af4b065665"
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ]}  
+        },
+        { 
+            "APIMethods":"put",
+            "ContractType":"",
+            "APIReference":"maps/api/place/update/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"",
+              "Pvalue":""
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ], 
+            "Requestbody":
+            {"place_id":"b8feae1763b95da807002c05bfa02f48",
+             "address":"70 Summer walk, USA",
+              "key":"qaclick123"}
+            }
+        },
+        { 
+            "APIMethods":"delete",
+            "ContractType":"",
+            "APIReference":"maps/api/place/delete/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"key",
+              "Pvalue":"qaclick123"
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ], 
+            "Requestbody":
+            {
+	
+                "place_id": "6d24dc388a06feed3cbf5e0d81e4d45f"}}
+                
+        
+        }
+        ]
+        
+    }

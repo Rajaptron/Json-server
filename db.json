@@ -1,0 +1,291 @@
+{
+"base":{
+        "baseUrl":"https://rahulshettyacademy.com",
+        "StatusCode":"200",
+        "   ":[
+            {
+            "HKey":"oauth",
+            "HValue":"kfdsakyuia173287"}
+        ]
+    },
+"post":[{ 
+            "ContractType":"",
+            "APIReference":"maps/api/place/add/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"key",
+              "Pvalue":"qaclick123"
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ], 
+            "Requestbody":
+            {"location": {"lat": -38.383494,"lng": 33.427362},
+            "accuracy": 50,"name": "Frontline house","phone_number": "(+91) 983 893 3937",
+            "address": "29, side layout, cohen 09","types": ["shoe park","shop" ],
+            "website": "http://google.com", "language": "French-IN"}
+            } 
+        },
+        { 
+            "ContractType":"",
+            "APIReference":"maps/api/place/get/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"place_id",
+              "Pvalue":"1fcf6f47044d95a452b051af4b065665"
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ]}  
+        },
+        { 
+            "ContractType":"",
+            "APIReference":"maps/api/place/update/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"",
+              "Pvalue":""
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ], 
+            "Requestbody":
+            {"place_id":"b8feae1763b95da807002c05bfa02f48",
+             "address":"70 Summer walk, USA",
+              "key":"qaclick123"}
+            }
+        },
+        { 
+            "ContractType":"",
+            "APIReference":"maps/api/place/delete/json",
+            "Contract":{
+            "Parameters":[
+            { "Pkey":"key",
+               "Pvalue":"qaclick123"},
+            {
+              "Pkey":"key",
+              "Pvalue":"qaclick123"
+            }
+            ],
+            "Headers":[
+            {
+            "HKey":"Content-Type",
+            "HValue":"application/json"
+            },
+            {
+            "HKey":"",
+            "HValue":""
+            }
+            ], 
+            "Requestbody":
+            {
+	
+                "place_id": "6d24dc388a06feed3cbf5e0d81e4d45f"}}
+                
+        
+        }
+        ],
+"get":[
+
+    { 
+        "ContractType":"",
+        "APIReference":"maps/api/place/get/json",
+        "Contract":{
+        "Parameters":[
+        { "Pkey":"key",
+           "Pvalue":"qaclick123"},
+        {
+          "Pkey":"place_id",
+          "Pvalue":"8be029ebcaa7c807aa2ec45b7f9f11dc"
+        }
+        ],
+        "Headers":[
+        {
+        "HKey":"Content-Type",
+        "HValue":"application/json"
+        },
+        {
+        "HKey":"",
+        "HValue":""
+        }
+        ], 
+        "Requestbody":
+        {"location": {"lat": -38.383494,"lng": 33.427362},
+        "accuracy": 50,"name": "Frontline house","phone_number": "(+91) 983 893 3937",
+        "address": "29, side layout, cohen 09","types": ["shoe park","shop" ],
+        "website": "http://google.com", "language": "French-IN"}
+        }
+    
+    },
+    {
+        "ContractType":"",
+        "APIReference":"maps/api/place/get/json",
+        "Contract":{
+        "Parameters":[
+        { "Pkey":"key",
+           "Pvalue":"qaclick123"},
+        {
+          "Pkey":"place_id",
+          "Pvalue":"1fcf6f47044d95a452b051af4b065665"
+        }
+        ],
+        "Headers":[
+        {
+        "HKey":"Content-Type",
+        "HValue":"application/json"
+        },
+        {
+        "HKey":"",
+        "HValue":""
+        }
+        ]}  
+    }
+],
+"put":[{ 
+   
+    "ContractType":"",
+    "APIReference":"maps/api/place/update/json",
+    "Contract":{
+    "Parameters":[
+    { "Pkey":"key",
+       "Pvalue":"qaclick123"},
+    {
+      "Pkey":"key",
+      "Pvalue":"qaclick123"
+    }
+    ],
+    "Headers":[
+    {
+    "HKey":"Content-Type",
+    "HValue":"application/json"
+    },
+    {
+    "HKey":"",
+    "HValue":""
+    }
+    ], 
+    "Requestbody":
+    {
+        "place_id":"799c14b69181ec85475f7d3ce2e40d7a",
+        "address":"7raja babu",
+        "key":"qaclick123"
+        }
+        
+    }
+
+},
+{ 
+   
+    "ContractType":"",
+    "APIReference":"maps/api/place/get/json",
+    "Contract":{
+    "Parameters":[
+    { "Pkey":"key",
+       "Pvalue":"qaclick123"},
+    {
+      "Pkey":"place_id",
+      "Pvalue":"1fcf6f47044d95a452b051af4b065665"
+    }
+    ],
+    "Headers":[
+    {
+    "HKey":"Content-Type",
+    "HValue":"application/json"
+    },
+    {
+    "HKey":"",
+    "HValue":""
+    }
+    ]}  
+}
+],
+"delete":[
+    { 
+        "ContractType":"",
+        "APIReference":"maps/api/place/delete/json",
+        "Contract":{
+        "Parameters":[
+        { "Pkey":"key",
+           "Pvalue":"qaclick123"},
+        {
+          "Pkey":"",
+          "Pvalue":""
+        }
+        ],
+        "Headers":[
+        {
+        "HKey":"Content-Type",
+        "HValue":"application/json"
+        },
+        {
+        "HKey":"",
+        "HValue":""
+        }
+        ], 
+        "Requestbody":{
+	
+            "place_id": "19b91d0b98040aff876a5fd5d8d53d22"
+            }
+       
+    }
+    
+    },
+    { 
+        "ContractType":"",
+        "APIReference":"maps/api/place/get/json",
+        "Contract":{
+        "Parameters":[
+        { "Pkey":"key",
+           "Pvalue":"qaclick123"},
+        {
+          "Pkey":"place_id",
+          "Pvalue":"1fcf6f47044d95a452b051af4b065665"
+        }
+        ],
+        "Headers":[
+        {
+        "HKey":"Content-Type",
+        "HValue":"application/json"
+        },
+        {
+        "HKey":"",
+        "HValue":""
+        }
+        ]}  
+    }
+]
+        
+    }
